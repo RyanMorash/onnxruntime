@@ -213,3 +213,7 @@ endif()
 if (onnxruntime_USE_AZURE)
   include(onnxruntime_providers_azure.cmake)
 endif()
+
+if (onnxruntime_USE_HAILO)
+  include(onnxruntime_providers_hailo.cmake)
+endif()
