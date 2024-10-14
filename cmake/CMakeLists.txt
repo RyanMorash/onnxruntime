@@ -147,6 +147,7 @@ option(onnxruntime_TVM_USE_HASH "Build ipp-crypto library for support hash algor
 option(onnxruntime_USE_XNNPACK "Build with XNNPACK support. Provides an alternative math library on ARM, WebAssembly and x86." OFF)
 option(onnxruntime_USE_WEBNN "Build with WebNN support. Enable hardware acceleration in web browsers." OFF)
 option(onnxruntime_USE_WEBGPU "Build with WebGPU support. Enable WebGPU via C/C++ interface." OFF)
+option(onnxruntime_USE_HAILO "Build with HAILO support" OFF)
 
 # Options related to reducing the binary size produced by the build
 # XNNPACK EP requires the internal NHWC contrib ops to be available, so this option must be OFF when onnxruntime_USE_XNNPACK is ON
